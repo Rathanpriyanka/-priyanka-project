@@ -7,16 +7,16 @@ restitution: 0.3,
 friction:0.5,
 density:1.2
 }
-this.Paper = Matter.Bodies.circle(200,200,2,options_paper);
+this.paper = Matter.Bodies.circle(200,350,10,options_paper);
 
 
 
 }
 display() {
 
-//rectMode(CENTER)
+ellipseMode(RADIUS)
 fill("pink");
-ellipse(200,200,2,2);
+ellipse(200,350,10,10);
 
 }
 
